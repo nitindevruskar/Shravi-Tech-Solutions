@@ -407,19 +407,31 @@ section h2 {
 
 /* COUNTERS */
 .counter-section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #0b1f3a;
     color: white;
     padding: 60px 8%;
     text-align: center;
+    gap: 30px;
+}
+
+.counter-box {
+    flex: 1;
 }
 
 .counter-box h2 {
-    font-size: 48px;
+    font-size: 42px;
     color: #00d084;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.counter-box p {
+    font-size: 20px;
+    color: #fff;
+    white-space: nowrap;
 }
 
 /* RUNNING MARQUEE FOR TRUSTED TECHNOLOGIES */

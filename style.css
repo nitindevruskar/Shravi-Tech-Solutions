@@ -38,6 +38,10 @@ header {
     align-items: center;
 }
 
+.logo img {
+    width: 80px;   /* Change to 90px or 100px if you want it bigger */
+    height: auto;
+}
 /* DECORATIVE INTERACTIVE NAVBAR NAVIGATION */
 .decorative-nav a {
     text-decoration: none;

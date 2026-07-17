@@ -262,11 +262,12 @@
         <h2>Let's Build Something Great</h2>
         <p>Need a website, database architecture, dashboard design, or automation workflow? Let's talk.</p>
         
-        <form action="#" method="POST">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <input type="text" placeholder="Mobile Number" required>
-            <textarea rows="6" placeholder="Tell us about your project" required></textarea>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="869dfc3b-a4ae-4cba-9246-9c053663864c">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="phone" placeholder="Mobile Number" required>
+            <textarea name="message" rows="6" placeholder="Tell us about your project" required></textarea>
             <button type="submit">Send Message</button>
         </form>
 
